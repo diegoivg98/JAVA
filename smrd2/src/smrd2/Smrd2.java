@@ -3,11 +3,12 @@ import java.util.Scanner;
 public class Smrd2 {
     public static void main(String[] args) {
         int n1,n2,suma,resta,mult,div;
- 
+        
+        
        Scanner scanner = new Scanner (System.in);
-        System.out.print ("Ingrese numero: ");
+        System.out.print ("Ingrese un numero: ");
         n1 = scanner.nextInt();
-        System.out.print ("Ingrese numero: ");
+        System.out.print ("Ingrese un numero: ");
         n2 = scanner.nextInt();
         suma = n1+n2;
         resta = n1-n2;
