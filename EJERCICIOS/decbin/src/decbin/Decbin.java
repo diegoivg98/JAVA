@@ -1,5 +1,4 @@
 package decbin;
-import java.util.ArrayList;
 import javax.swing.JOptionPane;
 public class Decbin {
     public static void main(String[] args) {
