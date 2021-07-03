@@ -4,6 +4,7 @@ import javax.swing.JOptionPane;
 
 public class Division {
     public static void main(String[] args) {
+        //INGRESAR NUMEROS, SI EL SEGUNDO ES IGUAL A 0 IMPRIMIR ERROR, DE LO CONTRARIO REALIZA LA DIVISION
         int n1,n2;
         n1 = Integer.parseInt(JOptionPane.showInputDialog("INGRESE UN NUMERO: "));
         n2 = Integer.parseInt(JOptionPane.showInputDialog("INGRESE UN NUMERO: "));
