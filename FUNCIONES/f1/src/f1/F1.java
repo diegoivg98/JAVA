@@ -8,6 +8,7 @@ public class F1 {
         System.out.println(mult(a,b));
         System.out.println(div(a,b));
     }
+    //CREAR FUNCIONES QUE DEVUELVAN LA SUMA,RESTA,MULTIPLICACION Y DIVISION DE 2 NUMEROS
     public static int suma(int a, int b) {
         return a+b;       
     }
