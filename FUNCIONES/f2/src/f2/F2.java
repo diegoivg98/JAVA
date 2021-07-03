@@ -5,6 +5,7 @@ public class F2 {
         String a = JOptionPane.showInputDialog("INGRESE UNA PALABRA");
         System.out.println(condicion(a));
     }
+    //FUNCION QUE RETORNE "OK" SI EL LARGO DE LA PALABRA ES >10 Y <100, DE NO CUMPLIR RETORNA "NO"
     public static String condicion(String n) {
         if (n.length()>10 && n.length()<100) {
             n = "OK";
