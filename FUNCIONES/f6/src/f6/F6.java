@@ -6,6 +6,7 @@ public class F6 {
         System.out.println(a1);
         System.out.println(a2);
     }
+    //FUNCION QUE RETORNE 1 SI AMBOS TEXTOS SON IGUALES, 0 EN CASO DE NO CUMPLIR
     public static int textoigual(String t1, String t2){
         if (t1==t2) {
             return 1;
