@@ -6,6 +6,7 @@ public class F9 {
         System.out.println(r1);
         System.out.println(r2);
     }
+    //FUNCION QUE RETORNA EL LARGO DE UNA PALABRA
     public static int largo (String t){
        int res;
         res = t.length();
