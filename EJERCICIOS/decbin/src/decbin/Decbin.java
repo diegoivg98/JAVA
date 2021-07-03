@@ -6,6 +6,7 @@ public class Decbin {
         int exp = 0;
         int num = Integer.parseInt(JOptionPane.showInputDialog("INGRESE UN NUMERO"));
         System.out.println("NUMERO DECIMAL: "+num);
+        //CONVERTIR UN NUMERO DECIMAL A BINARIO
         while(num!=0){
             int res = num % 2;
             bin += res*Math.pow(10, exp);
